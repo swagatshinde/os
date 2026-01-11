@@ -1,3 +1,10 @@
+// Banker's algorithm
+// add the following functionalities in your program
+// a)Accept available
+// b)Display Allocation,Max
+// c)Display contemts of need matrix
+// d)Display Available
+
 #include <stdio.h>
 void main()
 {
@@ -53,3 +60,4 @@ void main()
         printf("\t%d", work[i]);
     }
 }
+
