@@ -5,6 +5,9 @@
 // c)Display contemts of need matrix
 // d)Display Available
 
+// The Banker's Algorithm is primarily used for deadlock avoidance in operating systems.
+// It acts as a gatekeeper to ensure that the system never enters an "unsafe" state that could lead to a freeze.
+
 #include <stdio.h>
 void main()
 {
@@ -60,4 +63,5 @@ void main()
         printf("\t%d", work[i]);
     }
 }
+
 
